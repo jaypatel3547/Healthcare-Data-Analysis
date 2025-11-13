@@ -30,7 +30,7 @@ CREATE TABLE patients (
     registration_date DATE,
     insurance_provider VARCHAR(100),
     insurance_number VARCHAR(50),
-    email VARCHAR(100)
+    email VARCHAR(100),
     CONSTRAINT pk_p_id PRIMARY KEY (patient_id)
 );
 
@@ -64,7 +64,7 @@ CREATE TABLE treatments (
     treatment_date DATE,
     CONSTRAINT pk_t_id PRIMARY KEY (treatment_id),
     CONSTRAINT fk_t_appointment FOREIGN KEY (appointment_id)
-        REFERENCES appointments(appointment_id
+        REFERENCES appointments(appointment_id)
         ON DELETE CASCADE
         ON UPDATE CASCADE
 );
