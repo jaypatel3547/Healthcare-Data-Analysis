@@ -59,8 +59,8 @@ CREATE TABLE treatments (
     treatment_id VARCHAR(4),
     appointment_id VARCHAR(4),
     treatment_type VARCHAR(100),
-    treatment_description TEXT,
-    treatment_cost DECIMAL(6, 2),
+    description TEXT,
+    cost DECIMAL(6, 2),
     treatment_date DATE,
     CONSTRAINT pk_t_id PRIMARY KEY (treatment_id),
     CONSTRAINT fk_t_appointment FOREIGN KEY (appointment_id)
