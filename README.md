@@ -14,7 +14,7 @@ The workflow was :
 4. Run analysis queries from 'queries.sql' to answer business-style questions.
 
 
-*** Tech Stack ***
+** Tech Stack **
 
 - MySQL
 - VS Code
@@ -41,19 +41,19 @@ The database consists of five main tables created in 'schema.sql':
 
 ## Project Structure
 
-|---data
-    |---appointments.csv
-    |---billing.csv
-    |---doctors.csv
-    |---patients.csv
-    |---treatments.csv
+|--data
+    |--appointments.csv
+    |--billing.csv
+    |--doctors.csv
+    |--patients.csv
+    |--treatments.csv
 
-|---sql data
-    |---load_data.sql
-    |---queries.sql
-    |---schema.sql
+|--sql data
+    |--load_data.sql
+    |--queries.sql
+    |--schema.sql
 
-|---README.md
+|--README.md
 
 
 ## Key SQL features
