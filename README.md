@@ -41,20 +41,20 @@ The database consists of five main tables created in 'schema.sql':
 
 ## Project Structure
 
-|--data
-    |--appointments.csv
-    |--billing.csv
-    |--doctors.csv
-    |--patients.csv
-    |--treatments.csv
-
-|--sql data
-    |--load_data.sql
-    |--queries.sql
-    |--schema.sql
-
-|--README.md
-
+```
+Healthcare-Data-Analysis/
+├── data/
+│   ├── appointments.csv
+│   ├── billing.csv
+│   ├── doctors.csv
+│   ├── patients.csv
+│   └── treatments.csv
+├── sql_data/
+│   ├── load_data.sql
+│   ├── queries.sql
+│   └── schema.sql
+└── README.md
+```
 
 ## Key SQL features
 
